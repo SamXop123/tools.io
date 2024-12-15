@@ -1,0 +1,86 @@
+/* Contact page title styling */
+.contact_title {
+    font-family: Sunday Milk, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #c7a6e2; /* Light purple for contrast */
+    text-shadow: 3px 3px 5px black;
+    margin-bottom: 10px;
+}
+
+/* Subtitle below the title */
+.contact_subtitle {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #e0cfe8;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/* Contact form container styling */
+.contact_form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(42, 14, 82, 0.9); /* Dark purple background with transparency */
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+}
+
+/* Fieldset and form field styling */
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #e0cfe8; /* Light purple */
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #2a0e52;
+    background-color: #c7a6e2; /* Light purple background */
+    border: 1px solid #9b79b0;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #d9c1f0;
+    box-shadow: 0px 0px 5px #d9c1f0;
+}
+
+/* Submit button styling */
+.submit_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5e278b; /* Medium purple */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit_button:hover {
+    background-color: #431c6b; /* Darker purple */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0px 4px 10px rgba(94, 39, 139, 0.8);
+}

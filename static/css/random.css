@@ -1,0 +1,81 @@
+/* Styles for Random Number Generator */
+.random-number-tool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.random-number-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 400px;
+}
+
+.random-number-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #2c0143 60%, #9304cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.random-number-container form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    font-size: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.random-number-container form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7f0cea;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.random-number-container form button:hover {
+    background-color: #5d059b;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.result {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.result h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #7f0cea, #5d059b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.result p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.error {
+    margin-top: 20px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}

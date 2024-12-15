@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1 class="contact_title">Contact Me!</h1>
+<p class="contact_subtitle">Feel free to reach out by filling out the form below.</p>
+
+<div class="contact_form_container">
+    <form id="contactForm">
+        <fieldset>
+            <label for="name">Your Name:</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" required />
+        </fieldset>
+        <fieldset>
+            <label for="email">Your Email:</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email" required />
+        </fieldset>
+        <fieldset>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+        </fieldset>
+        <center>
+        <button type="submit" class="submit_button">Send Message</button>
+    </center>
+    </form>
+</div>
+
+{% endblock %}

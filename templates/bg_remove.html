@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    
+    <div class="bg-remove">
+        <div class="formbg-container">
+            <h1>Background Remover</h1>
+            <form action="/bg_remove.html" method="post" enctype="multipart/form-data">
+                <input type="file" name="image" accept=".jpg, .jpeg, .png" required class="bg-remove-file">
+                <button type="submit" class="bg-remove-btn">Remove Background</button>
+            </form>
+
+            {% if image_url %}
+                <div class="bg-remove-result">
+                    <h3>Processed Image:</h3>
+                    <img src="{{ image_url }}" alt="Processed Image" class="bg-remove-image">
+                    <a href="{{ image_url }}" download="processed_image.png">
+                        <button class="bg-remove-download-btn">Download Image</button>
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="compressed">
+        <div class="image-compressor">
+            <div class="compression-box">
+                <h1>Image Compressor</h1>
+                <form action="/compress.html" method="post" enctype="multipart/form-data" id="compress-form">
+                    <input type="file" name="image" accept=".jpg, .jpeg, .png" required>
+                    <button type="submit">Compress Image</button>
+                </form>
+
+                {% if success %}
+                    <p class="success-message">Image compressed successfully!</p>
+                    <a href="{{ download_url }}" class="download-button" download>Download Compressed Image</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+{% endblock %}

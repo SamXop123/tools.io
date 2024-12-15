@@ -1,0 +1,88 @@
+
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+}
+
+.memory-card {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background-color: #ccc;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden; 
+    border: 5px solid blueviolet;
+    box-shadow: 2px 3px 5px purple;
+}
+
+.memory-card.flipped {
+    background-color: #f0f0f0;
+    transform: rotateY(180deg);
+}
+
+.memory-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures images fit the card size */
+    display: block;
+    opacity: 0; /* hides the image initially */
+    transition: opacity 0.3s;
+}
+
+.match-text p {
+    text-align: center;
+}
+.match-text h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Atma;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #2c0143 60%, #9304cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mem-message {
+    font-size: 20px;
+    color: linear-gradient(to right, #2c0143 60%, #9304cc);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px white;
+}
+
+.mem-action {
+    text-align: center;
+}
+.mem-action form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.mem-action form button:hover {
+    background-color: #35006d;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add custom classes for each card to display specific images */
+.memory-card[data-id="1"] img { content: url('/static/media/image1.jpeg'); }
+.memory-card[data-id="2"] img { content: url('/static/media/image2.jpeg'); }
+.memory-card[data-id="3"] img { content: url('/static/media/image3.jpeg'); }
+.memory-card[data-id="4"] img { content: url('/static/media/image4.jpeg'); }
+.memory-card[data-id="5"] img { content: url('/static/media/image5.jpeg'); }
+.memory-card[data-id="6"] img { content: url('/static/media/image6.jpeg'); }
+.memory-card[data-id="7"] img { content: url('/static/media/image7.jpeg'); }
+.memory-card[data-id="8"] img { content: url('/static/media/image8.jpeg'); }

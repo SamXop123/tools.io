@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tools.io - A collection of useful tools and games">
+    <meta name="keywords" content="tools, games, utilities, web tools, web games">
+    <meta name="author" content="tools.io">
+
+    <title>tools.io</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/session.css">
+    <link rel="stylesheet" href="/static/css/password.css">
+    <link rel="stylesheet" href="/static/css/compress.css">
+    <link rel="stylesheet" href="/static/css/speech.css">
+    <link rel="stylesheet" href="/static/css/bg_remove.css">
+    <link rel="stylesheet" href="/static/css/ip_finder.css">
+    <link rel="stylesheet" href="/static/css/random.css">
+    <link rel="stylesheet" href="/static/css/qr_generator.css">
+    <link rel="stylesheet" href="/static/css/word.css">
+    <link rel="stylesheet" href="/static/css/contact.css">
+    <link rel="stylesheet" href="/static/css/number_guess.css">
+    <link rel="stylesheet" href="/static/css/swg.css">
+    <link rel="stylesheet" href="/static/css/tictactoe.css">
+    <link rel="stylesheet" href="/static/css/match.css">
+    <link rel="stylesheet" href="/static/css/snake.css">
+
+    <link rel="website icon" href="/static/media/tools-io.webp">
+</head>
+
+<body class="{% block body_class %}{% endblock %}">
+
+    <nav>
+        <form action="/" method="get">
+            <button type="submit"><img class="logo" src="/static/media/tools-io.webp" alt="tools.io"></button>
+        </form>
+        <div class="center-buttons">
+            <form action="/" method="get">
+                <button type="submit">Home</button>
+            </form>
+            <form action="/tools.html" method="get">
+                <button type="submit">Tools</button>
+            </form>
+            <form action="/games.html" method="get">
+                <button type="submit">Games</button>
+            </form>
+            <form action="/contact.html" method="get">
+                <button type="submit">Contact</button>
+            </form>
+        </div>
+        
+        <div class="auth-buttons">
+            {% if session.get('username') %}
+                <form action="/logout" method="get">
+                    <button type="submit">Log out</button>
+                </form>
+                <span class="welcome-message">Welcome, {{ session.get('username') }}!</span>
+            {% else %}
+                <form action="/login.html" method="get">
+                    <button type="submit">Log in</button>
+                </form>
+                <form action="/signup.html" method="get">
+                    <button type="submit">Sign up</button>
+                </form>
+            {% endif %}
+        </div>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/guess.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/contact.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/tictactoe.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/memory-game.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/snake.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+
+{% block body_class %}
+main-page
+{% endblock %}
+
+{% block content %}
+
+    <div class="main-index">
+        <h1 class="web-title">tools.io</h1>
+        <p class="index">
+            Unleash Your Creativity: <br>
+            Explore a World of Games and Tools to Ignite Your Imagination!    
+        </p>
+        
+    </div>
+    
+    <div class="cta-buttons">
+        <a href="/tools.html" class="cta-button">Explore Tools</a>
+        <a href="/games.html" class="cta-button">Play Games</a>
+    </div>
+
+    <center>
+    <img src="/static/media/scroll.png" alt="Scroll down" width="100px">
+    </center>
+
+    <div class="about-section">
+        <h2 class="section-title">About Us</h2>
+        <p>Welcome to Tools.io, your one-stop destination for innovative tools and entertaining games designed to simplify tasks and add a touch of fun to your day! Our mission is to empower individuals and businesses with versatile, user-friendly solutions that blend functionality with creativity. From productivity boosters to creative utilities, and even engaging games to relax and recharge, Tools.io offers something for everyone. We believe in the power of simplicity, efficiency, and enjoyment, ensuring our tools and games are intuitive, effective, and delightful to use. Join us on this exciting journey as we continue to expand our collection and bring new, impactful features to your fingertips. Let’s simplify tasks, spark creativity, and have fun—together!</p>
+    </div>
+    
+    <div class="testimonials-section">
+        <h2 class="section-title">What Our Users Say</h2>
+        <div class="testimonial">
+            <p>"Tools.io has become my go-to site for productivity tools and fun games. Highly recommended!"</p>
+            <span>- ABC</span>
+        </div>
+        <div class="testimonial">
+            <p>"The variety and quality of tools available here are simply amazing!"</p>
+            <span>- XYZ</span>
+        </div>
+    </div>
+    
+    <div class="updates-section">
+        <h2 class="section-title">Latest Updates</h2>
+        <div class="update">
+            <h3>New Game: Memory Match</h3>
+            <p>We just launched a new game - Memory Match! Check it out now and challenge your friends.</p>
+            <a href="/match.html">Play Memory Match</a>
+        </div>
+        <div class="update">
+            <h3>New Tool: Word Counter</h3>
+            <p>We just launched a new tool - Word Counter! Check it out now and improve your productivity.</p>
+            <a href="/word_counter.html">Try Word Counter</a>
+        </div>
+
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Tools.io offers a unique collection of tools and games to ignite your creativity and productivity.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/tools.html">Tools</a></li>
+                    <li><a href="/games.html">Games</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Tools.io | All rights reserved.</p>
+        </div>
+    </footer>
+
+{% endblock %}

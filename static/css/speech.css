@@ -1,0 +1,80 @@
+
+.text-to-speech {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+/* Container for the form */
+.formtext-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+}
+
+/* textarea styling */
+.tts-textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Submit button styling */
+.tts-submit-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7f0cea;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.tts-submit-btn:hover {
+    background-color: #5d059b;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Audio player and download button */
+.tts-audio-container {
+    margin-top: 20px;
+}
+
+.tts-audio-player {
+    margin-bottom: 15px;
+}
+
+.tts-download-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.tts-download-btn:hover {
+    background-color: #218838;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

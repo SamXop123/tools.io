@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <h1 class="game_title">Guess the Number Game</h1>
+
+    <p class="game_instructions">I'm thinking of a number between 1 and 100. Can you guess it?</p>
+
+    <div class="game_container">
+        <input type="number" id="guessInput" placeholder="Enter a number between 1 and 100" min="1" max="100" required />
+
+        <button id="submitGuess">Submit Guess</button>
+
+        <div id="feedback"></div>
+    </div>
+
+{% endblock %}

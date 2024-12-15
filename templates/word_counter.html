@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="word-counter">
+    <div class="form-container">
+        <h1>Word Counter</h1>
+        <form action="/word_counter.html" method="post">
+            <label for="text">Text:</label>
+            <textarea name="text" id="text" placeholder="Type or paste your text here..." rows="8"></textarea>
+            <button type="submit">Count Words and Characters</button>
+        </form>
+
+        {% if word_count is not none %}
+        <div class="counter-output">
+            <p><strong>Words:</strong> {{ word_count }}</p>
+            <p><strong>Characters (with spaces):</strong> {{ char_count_with_spaces }}</p>
+            <p><strong>Characters (without spaces):</strong> {{ char_count_without_spaces }}</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

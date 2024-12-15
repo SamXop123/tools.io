@@ -1,0 +1,53 @@
+
+.snake-page {
+    margin: 0;
+    padding: 0;
+    color: #ffffff; 
+    font-family: "Arial", sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Header */
+.snake-head {
+    margin-top: -10px;
+    font-size: 2rem;
+    color: #ffcc00; 
+}
+
+/* Canvas styling */
+canvas {
+    border: 5px solid #ffcc00; 
+    background-color: #2e2e3f; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+    display: block;
+}
+
+/* Button styling */
+.snake-game {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #1e1e2f;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.snake-game:hover {
+    background-color: #e6b800;
+}
+
+/* Message for starting game */
+.start-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 10px;
+}

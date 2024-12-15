@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="qr-container">
+    <h1>QR Code Generator</h1>
+    <form action="/qr_generator.html" method="post">
+        <label for="qr-text">Enter Text or URL:</label>
+        <input type="text" id="qr-text" name="qr_text" required>
+        <button type="submit">Generate QR Code</button>
+    </form>
+</div>
+{% endblock %}

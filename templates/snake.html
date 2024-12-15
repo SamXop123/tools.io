@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="snake-page">
+    <h1 class="snake-head">Snake Game</h1>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div class="start-message">Press an arrow key to start!</div>
+    <button class="snake-game" onclick="location.href='/snake.html'">Restart</button>
+</div>
+
+{% endblock %}

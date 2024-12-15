@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block body_class %}
+swg-page
+{% endblock %}
+
+{% block content %}
+
+<div class="swg">
+    <div class="game-container">
+        <h1>Snake Water Gun Game</h1>
+        <p>Select your choice:</p>
+
+        <form action="/snake_water_gun.html" method="POST">
+            <div class="choice-buttons">
+                <button type="submit" name="choice" value="snake">Snake</button>
+                <button type="submit" name="choice" value="water">Water</button>
+                <button type="submit" name="choice" value="gun">Gun</button>
+            </div>
+        </form>
+
+        {% if result %}
+        <div class="result-section">
+            <h2>Result:
+                {% if result == 'Draw!' %}
+                <span class="draw-message">{{ result }}</span>
+                {% elif result == 'You won!' %}
+                <span class="win-message">{{ result }}</span>
+                {% else %}
+                <span class="lose-message">{{ result }}</span>
+                {% endif %}
+            </h2>
+            <p>Your choice: {{ user_choice }}</p>
+            <p>Computer's choice: {{ computer_choice }}</p>
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <div class="error-message">
+            <p>{{ error }}</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

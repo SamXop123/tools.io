@@ -1,0 +1,100 @@
+.swg {
+    font-family: 'Arial', sans-serif;
+    color: white; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+/* Container */
+.game-container {
+    margin-left: 10px;    
+    margin-right: 10px;  
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 450px;
+    max-width: 100%;
+}
+
+
+/* Title */
+.game-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #29026d, #b300ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Buttons for choices */
+.choice-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.choice-buttons button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4c6ef5; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 100px; 
+}
+
+/* Hover effect for buttons */
+.choice-buttons button:hover {
+    background-color: #3a57f5;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Result message styles */
+.result-section {
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.result-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #3b0675, #8e0ae0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.result-section p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.win-message {
+    color: #28a745; /* Green for win */
+}
+
+.lose-message {
+    color: #dc3545; /* Red for lose */
+}
+
+.draw-message {
+    color: #ffc107; /* Yellow for draw */
+}
+
+/* Error message styling */
+.error-message {
+    margin-top: 20px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block body_class %}
+tools-page
+{% endblock %}
+
+{% block content %}
+
+<h1 class="tools_title">Explore Our Tools!</h1>
+
+<div class="cards-container">
+
+    <div class="card">
+        <a href="/bg_remove.html">
+            <h3>Background Remover</h3>
+            <img src="/static/media/bgrem.webp" width="50px">
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/ip_finder.html">
+            <h3>IP Finder</h3>
+            <img src="/static/media/ip.webp" width="50px">
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/random_number.html">
+            <h3>Random number Generator</h3>
+            <img src="/static/media/random-transformed.png" width="50px">
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/compress.html">
+            <h3>Image Compressor</h3>
+            <img src="/static/media/compress.png" width="50px">
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/password_generator.html">
+            <h3>Password Generator</h3>
+            <img src="/static/media/password.png" width="50px">
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/text_to_speech.html">
+            <h3>text-to-speech</h3>
+            <img src="/static/media/tts.png" width="50px">
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/word_counter.html">
+            <h3>Word Counter</h3>
+            <img src="/static/media/word-counter-thumbnail.png" width="50px">
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/qr_generator.html">
+            <h3>QR Generator</h3>
+            <img src="/static/media/qr.png" width="50px">
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}

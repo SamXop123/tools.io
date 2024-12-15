@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="ip-finder">
+    <div class="ip-container">
+        <h1>IP Finder</h1>
+        <form action="/ip_finder.html" method="post">
+            <input type="hidden" name="option" value="know_your_ip">
+            <button type="submit">Know Your IP</button>
+        </form>
+        
+        <form action="/ip_finder.html" method="post" class="custom-ip-form">
+            <input type="hidden" name="option" value="custom_ip">
+            <input type="text" name="custom_ip" placeholder="Enter a custom IP..." required>
+            <button type="submit">Find Location</button>
+        </form>
+        
+        {% if show_ip %}
+        <p class="ip-display">Your IP: {{ ip }}</p>
+        {% endif %}
+        
+        {% if location %}
+        <div class="location-display">
+            <h3>Location Details:</h3>
+            <p><strong>IP:</strong> {{ location['IP'] }}</p>
+            <p><strong>City:</strong> {{ location['City'] }}</p>
+            <p><strong>Region:</strong> {{ location['Region'] }}</p>
+            <p><strong>Country:</strong> {{ location['Country'] }}</p>
+            <p><strong>Lat & Long:</strong> {{ location['Latitude and Longitude'] }}</p>
+            <p><strong>Organization:</strong> {{ location['Organization'] }}</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

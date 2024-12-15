@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="random-number-tool">
+    <div class="random-number-container">
+        <h1>Random Number Generator</h1>
+        <form action="/random_number.html" method="post">
+            <input type="number" name="digits" placeholder="Enter number of digits" required min="1">
+            <button type="submit">Generate Random Number</button>
+        </form>
+
+        {% if random_num %}
+        <div class="result">
+            <h2>Generated Random Number:</h2>
+            <p>{{ random_num }}</p>
+        </div>
+        {% elif error %}
+        <div class="error">
+            <p>{{ error }}</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

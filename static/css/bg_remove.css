@@ -1,0 +1,82 @@
+
+.bg-remove {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+}
+
+/* Container for the form */
+.formbg-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+}
+
+/* File Input for Image */
+.bg-remove-file {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Remove Background Button */
+.bg-remove-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7f0cea;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.bg-remove-btn:hover {
+    background-color: #5d059b;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bg-remove-result {
+    margin-top: 20px;
+}
+
+/* Processed Image Display */
+.bg-remove-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.bg-remove-download-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.bg-remove-download-btn:hover {
+    background-color: #218838;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

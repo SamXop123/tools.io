@@ -1,0 +1,411 @@
+
+body {
+    background-image: url(/static/media/download.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2a0e52; 
+}
+
+body.main-page {
+    background-image: url(/static/media/download.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #2a0e52;
+}
+
+/* Specific styling for Games and Tools pages */
+body.games-page,
+body.tools-page {
+    background-image: none; 
+    background-size: cover;
+    background-color: #2a0e52; 
+}
+
+/* Navbar styling */
+nav {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; /* Space out the items across the navbar */
+    padding: 10px 20px; 
+    background: linear-gradient(90deg, #5b2a8f, #7d2e99); 
+    background-color: #3d2a63; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
+    border-radius: 10px;
+}
+
+/* Center buttons container */
+.center-buttons {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; /* Space between buttons */
+}
+
+/* Auth buttons container (right side) */
+.auth-buttons {
+    display: flex; 
+    gap: 15px; 
+}
+
+/* Styling for buttons */
+nav button {
+    padding: 10px 15px;
+    border: 2px solid rgba(255, 255, 255, 0.7); 
+    border-radius: 8px;
+    color: white; 
+    background: transparent; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-family: Most Heroes, Atma, Arial Rounded MT, Berlin Sans FB, Boogie Boys;
+}
+
+/* Hover effects for buttons */
+nav button:hover {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7); 
+    transform: scale(1.05); /* Slightly enlarge the button */
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+/* Logo styling */
+nav .logo {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 50%; 
+    transition: 0.3s ease-in-out; /* Smooth animation effect */
+}
+
+nav .logo:hover {
+    box-shadow: 0 0 15px 5px rgba(140, 0, 255, 0.7); /* Glow effect */
+    transform: scale(1.1); /* Slightly enlarges the logo */
+}
+
+
+/* Welcome message styling */
+.welcome-message {
+    font-size: 18px; 
+    font-weight: bold;
+    color: #ffffff; 
+    background: rgba(42, 19, 108, 0.3); 
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slight shadow */
+    transition: background 0.3s ease-in-out; /* Smooth transition effect */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+    display: inline-block;
+    font-family: Most Heroes, Atma, Arial Rounded MT, Berlin Sans FB, Boogie Boys;
+    outline: 3px solid white;
+    margin: 10px;
+}
+
+.welcome-message:hover {
+    background: rgba(42, 19, 108, 0.5); 
+    cursor: default;
+}
+
+
+.main-index {
+    display: flex;
+}
+
+.web-title {
+    font-size: 90px;
+    font-weight: 700;
+    font-family: Atma;
+    margin-left: 300px;
+    margin-top: 205px;
+    margin-right: auto;
+    background: linear-gradient(90deg, rgb(40,0,150), rgb(80,0,140), rgb(120,0,200)); /* Purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: -10px 10px 30px red; 
+}
+.index {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Most Heroes, Atma, Arial Rounded MT, Berlin Sans FB, Boogie Boys;
+    margin-left: 50px;
+    margin-top: 150px;
+    background: linear-gradient(90deg, rgb(40,0,150), rgb(80,0,140), rgb(120,0,200)); /* Purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: -3px 7px 30px #000000; 
+    border-left: 5px solid #5c1f7b; 
+    border-radius: 5%;
+    padding: 35px;
+}
+
+.section-title {
+    font-family: 'Sunday Milk', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.featured-section, .testimonials-section, .updates-section {
+    padding: 50px 20px;
+    background: rgba(42, 19, 108, 0.5); 
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border: 2px solid red;
+    box-shadow: 5px 5px 10px rgb(161, 79, 8);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.testimonials-section {
+    border: 2px solid red;
+    box-shadow: 5px 5px 10px rgb(161, 79, 8);
+    margin-bottom: 75px;
+}
+
+.about-section {
+    padding: 30px 20px;
+    background: rgba(42, 19, 108, 1); 
+    border-radius: 15px;
+    margin: 150px auto 100px auto;
+    max-width: 500px;
+    border: 2px solid red;
+    box-shadow: 5px 5px 10px rgb(161, 79, 8);
+}
+
+.updates-section {
+    margin-bottom: 100px;
+}
+
+.about-section p {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.testimonial {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    
+}
+
+.update {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.update a {
+    color:aqua;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin: 40px 0;
+}
+
+.cta-button {
+    background: linear-gradient(90deg, #5b2a8f, #7d2e99);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: linear-gradient(90deg, #7d2e99, #5b2a8f);
+}
+
+
+.tools_title {
+    font-family: Sunday milk, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    letter-spacing: 5px
+} 
+
+/* Card container */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh; /* Take up most of the vertical space */
+    margin-bottom: 100px;
+}
+
+/* Card styling */
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: rgba(42, 19, 108, 0.15); 
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+    border: 2px solid rgba(0, 0, 0, 0.3); 
+    overflow: hidden; /* Ensure the background doesn't overflow the card */
+    position: relative;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card content (blurry background effect) */
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/static/media/tools-io.webp'); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); /* Initial blur effect */
+    transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+    z-index: -1; /* To place it behind the card content */
+}
+
+/* Hover effect for the card */
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); 
+}
+
+/* Card hover background - reduce blur */
+.card:hover::before {
+    filter: blur(2px); /* Decrease blur when hovering */
+}
+
+/* Card title */
+.card h3 {
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 1; /* Ensures text is above the blurred background */
+    font-family: Sunday Milk;
+    letter-spacing: 2px;
+    color: #ffffff; 
+}
+
+/* Card link */
+.card a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    text-decoration: none;
+    background-color: rgba(128, 0, 128, 0.7); 
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-align: center;
+    z-index: 1; /* Ensures link is above the background */
+}
+
+/* Hover effect for links */
+.card a:hover {
+    background-color: rgba(102, 0, 102, 0.7); 
+}
+
+/* Optional: Text for the card link (if you want specific text) */
+.card p {
+    z-index: 1;
+    font-size: 16px;
+    color: white;
+}
+
+.card img { 
+    transition: opacity 0.2s ease; /* Smooth fade-out effect over 0.5 seconds */
+}
+
+.card:hover img {
+    opacity: 0;
+}
+
+
+
+/* Footer styling */
+footer {
+    background: linear-gradient(90deg, #5b2a8f, #7d2e99);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3); 
+    border-top: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px 20px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-family: 'Sunday Milk', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    font-size: 14px;
+    font-family: Atma, Arial Rounded MT, Berlin Sans FB, Boogie Boys;
+    letter-spacing: 5px;
+}

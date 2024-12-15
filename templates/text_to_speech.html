@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="text-to-speech">
+        <div class="formtext-container">
+            <h1>Text to Speech</h1>
+            <form action="/text_to_speech.html" method="post">
+                <textarea name="text" placeholder="Type something..." required class="tts-textarea"></textarea>
+                <button type="submit" class="tts-submit-btn">Convert to Speech</button>
+            </form>
+
+            {% if audio_url %}
+                <div class="tts-audio-container">
+                    <h3>Your Speech:</h3>
+                    <audio controls class="tts-audio-player">
+                        <source src="{{ audio_url }}" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <a href="{{ audio_url }}" download="output.mp3">
+                        <button class="tts-download-btn">Download MP3</button>
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
