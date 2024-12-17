@@ -160,7 +160,7 @@ This file defines the base layout for the "tools.io" web application, built usin
 
 ### Overview
 
-The `layout.html` template is used by Flask to render the overall structure of the site. It includes navigation, dynamic content blocks, and links to various CSS and JavaScript files for styling and interactivity. This layout template is inherited by other pages in the Flask project. For example, pages like `tools.html`, `games.html`, and `contact.html` extend this layout and inject their unique content into the `{% block content %}`.
+The `layout.html` template is used by Flask to render the overall structure of the site. It includes navigation, dynamic content blocks, and links to various CSS and JavaScript files for styling and interactivity. This layout template is inherited by other pages in the Flask project using jinja syntax. For example, pages like `tools.html`, `games.html`, and `contact.html` extend this layout and inject their unique content into the `{% block content %}`.
 
 ## Key Features
 
