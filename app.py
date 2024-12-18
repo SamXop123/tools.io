@@ -14,7 +14,6 @@ import io
 
 
 app = Flask(__name__) 
-application = app
 app.secret_key = "supersecretkey"
 CORS(app)
 users_db = {}
