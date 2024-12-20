@@ -1,14 +1,13 @@
-/* Contact page title styling */
+
 .contact_title {
     font-family: Sunday Milk, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 50px;
-    color: #c7a6e2; /* Light purple for contrast */
+    color: #c7a6e2; 
     text-shadow: 3px 3px 5px black;
     margin-bottom: 10px;
 }
 
-/* Subtitle below the title */
 .contact_subtitle {
     text-align: center;
     font-family: Arial, sans-serif;
@@ -17,21 +16,19 @@
     font-size: 18px;
 }
 
-/* Contact form container styling */
 .contact_form_container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    background-color: rgba(42, 14, 82, 0.9); /* Dark purple background with transparency */
+    background-color: rgba(42, 14, 82, 0.9); 
     border-radius: 10px;
     width: 50%;
     margin: 0 auto;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
-/* Fieldset and form field styling */
 fieldset {
     border: none;
     margin-bottom: 15px;
@@ -41,7 +38,7 @@ fieldset {
 label {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    color: #e0cfe8; /* Light purple */
+    color: #e0cfe8; 
     display: block;
     margin-bottom: 5px;
 }
@@ -53,7 +50,7 @@ textarea {
     margin-bottom: 10px;
     font-size: 16px;
     color: #2a0e52;
-    background-color: #c7a6e2; /* Light purple background */
+    background-color: #c7a6e2; 
     border: 1px solid #9b79b0;
     border-radius: 5px;
     outline: none;
@@ -66,13 +63,12 @@ textarea:focus {
     box-shadow: 0px 0px 5px #d9c1f0;
 }
 
-/* Submit button styling */
 .submit_button {
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
-    background-color: #5e278b; /* Medium purple */
+    background-color: #5e278b; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -80,7 +76,7 @@ textarea:focus {
 }
 
 .submit_button:hover {
-    background-color: #431c6b; /* Darker purple */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: #431c6b; 
+    transform: scale(1.05); 
     box-shadow: 0px 4px 10px rgba(94, 39, 139, 0.8);
 }
