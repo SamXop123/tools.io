@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-/* Container for the form */
+/* form container */
 .formtext-container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -33,7 +33,7 @@
     margin-bottom: 20px;
 }
 
-/* Submit button styling */
+
 .tts-submit-btn {
     padding: 12px 24px;
     border: none;
