@@ -46,16 +46,16 @@ This project is built using:
 ## Screenshots
 
 ### Home Page
-![Home Page](static/media/home-page.png)
+![Home Page](https://github.com/SamXop123/SamXop123/blob/main/Resources/home-page.png)
 
 ### Tools Page
-![Tools Page](/static/media/tools-page.png)
+![Tools Page](https://github.com/SamXop123/SamXop123/blob/main/Resources/tools-page.png)
 
 ### Games Page
-![Games Page](static/media/games-page.png)
+![Games Page](https://github.com/SamXop123/SamXop123/blob/main/Resources/games-page.png)
 
 ### Login Page
-![Login Page](static/media/login-page.png)
+![Login Page](https://github.com/SamXop123/SamXop123/blob/main/Resources/login-page.png)
 
 
 <hr>
