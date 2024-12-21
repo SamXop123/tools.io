@@ -11,14 +11,14 @@
     height: 80vh;
 }
 
-/* Header */
+/* header */
 .snake-head {
     margin-top: -10px;
     font-size: 2rem;
     color: #ffcc00; 
 }
 
-/* Canvas styling */
+/* canvas styling */
 canvas {
     border: 5px solid #ffcc00; 
     background-color: #2e2e3f; 
@@ -27,7 +27,7 @@ canvas {
     display: block;
 }
 
-/* Button styling */
+/* button */
 .snake-game {
     margin-top: 20px;
     padding: 10px 20px;
@@ -44,7 +44,7 @@ canvas {
     background-color: #e6b800;
 }
 
-/* Message for starting game */
+/* starting message */
 .start-message {
     text-align: center;
     font-size: 1.2rem;

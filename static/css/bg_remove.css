@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-/* Container for the form */
+/* form container */
 .formbg-container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -20,7 +20,7 @@
     width: 350px;
 }
 
-/* File Input for Image */
+/* image file input */
 .bg-remove-file {
     width: 100%;
     padding: 10px;
@@ -32,7 +32,7 @@
     margin-bottom: 20px;
 }
 
-/* Remove Background Button */
+/* background remove button */
 .bg-remove-btn {
     padding: 12px 24px;
     border: none;
@@ -56,7 +56,7 @@
     margin-top: 20px;
 }
 
-/* Processed Image Display */
+/* processed image */
 .bg-remove-image {
     max-width: 100%;
     height: auto;

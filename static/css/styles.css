@@ -46,7 +46,7 @@ nav {
     gap: 15px; 
 }
 
-/* Styling for buttons */
+/* navigation bar buttons */
 nav button {
     padding: 10px 15px;
     border: 2px solid rgba(255, 255, 255, 0.7); 
@@ -60,7 +60,6 @@ nav button {
     font-family: Most Heroes, Atma, Arial Rounded MT, Berlin Sans FB, Boogie Boys;
 }
 
-/* Hover effects for buttons */
 nav button:hover {
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7); 
     transform: scale(1.05); /* Slightly enlarge the button */
@@ -246,7 +245,7 @@ nav .logo:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 60vh; /* Take up most of the vertical space */
+    height: 60vh; /* To take up most of the vertical space */
     margin-bottom: 100px;
 }
 
@@ -261,7 +260,7 @@ nav .logo:hover {
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
     border: 2px solid rgba(0, 0, 0, 0.3); 
-    overflow: hidden; /* Ensure the background doesn't overflow the card */
+    overflow: hidden; 
     position: relative;
     transition: all 0.3s ease;
     display: flex;
@@ -322,7 +321,7 @@ nav .logo:hover {
     font-weight: bold;
     transition: background-color 0.3s;
     text-align: center;
-    z-index: 1; /* Ensures link is above the background */
+    z-index: 1;
 }
 
 /* Hover effect for links */
@@ -330,7 +329,6 @@ nav .logo:hover {
     background-color: rgba(102, 0, 102, 0.7); 
 }
 
-/* Optional: Text for the card link (if you want specific text) */
 .card p {
     z-index: 1;
     font-size: 16px;

@@ -22,7 +22,6 @@ users_db = {}
 def home():
     return render_template('index.html')
 
-
 @app.route('/tools.html')
 def tools():
     return render_template('tools.html')

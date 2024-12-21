@@ -1,4 +1,4 @@
-/* General Styles */
+
 .compressed {
     font-family: Arial, sans-serif;
     color: white;
@@ -9,7 +9,7 @@
     align-items: center;
 } 
 
-/* Compressor Container */
+/* Container */
 .image-compressor {
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
     height: 100%;
 }
 
-/* Compression Box */
+/* compression box */
 .compression-box {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -29,14 +29,14 @@
     width: 350px;
 }
 
-/* Heading Styles */
+/* Heading styles */
 .compression-box h1 {
     font-size: 24px;
     margin-bottom: 20px;
     color: linear-gradient(to right, #2c0143 60%, #9304cc);;
 }
 
-/* File Input */
+/* File input */
 .compression-box input[type="file"] {
     display: block;
     margin: 10px 0;
@@ -50,7 +50,7 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Button Styles */
+/* button styles */
 .compression-box button {
     padding: 10px 20px;
     border: none;
@@ -69,7 +69,7 @@
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Note Below the Form */
+/* Note below the form */
 .compression-box .note {
     font-size: 14px;
     margin-top: 10px;
@@ -77,7 +77,6 @@
     font-style: italic;
 }
 
-/* Success Message */
 .success-message {
     color: #074c09;
     font-size: 16px;
@@ -86,7 +85,6 @@
     text-align: center;
 }
 
-/* Download Button */
 .download-button {
     display: inline-block;
     margin-top: 15px;

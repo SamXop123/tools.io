@@ -1,7 +1,8 @@
 # Tools.io
-#### `Video Demo:`  https://youtu.be/Sh-YE-4NC1Y
+#### `Video Demo:`  [To be updated soon]
 #### `Creator:` Sameer Prajapati
 #### `Github:` SamXop123
+#### `Link:` (Need help regarding its deployment, please reach me out via linkedin)
 
 ## Description:
 
@@ -10,13 +11,16 @@ Welcome to **Tools.io**, your ultimate destination for innovative tools and ente
 ## Features
 
 ### Tools
+_(Highlights)_
 - **Random Number Generator**: Generate secure and customizable random numbers effortlessly.
-- **Markdown Previewer**: Convert Markdown syntax into a live preview for efficient documentation.
+- **Background Remover**: Convert Markdown syntax into a live preview for efficient documentation.
 - **QR Code Generator**: Create QR codes for URLs, text, or contact details instantly.
 
 ### Games
+_(Highlights)_
 - **Memory Game**: Test and enhance your memory with this engaging and interactive game.
-- Additional games to keep you entertained and relaxed.
+- **Snake Game**: Bring back your old memories of playing the OG snake game!
+- And, many more additional games to keep you entertained and relaxed.
 
 ## Tech Stack
 
