@@ -3,8 +3,6 @@ from flask_cors import CORS
 from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 from gtts import gTTS
-from PIL import Image
-from rembg import remove
 import qrcode
 from io import BytesIO
 import requests
