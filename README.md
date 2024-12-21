@@ -3,6 +3,7 @@
 #### `Creator:` Sameer Prajapati
 #### `Github:` SamXop123
 #### `Link:` <a href="https://tools-io.vercel.app" target="_blank"> tools.io </a>
+<h6> (The Background remover and image compressor won't be working due to vercels memory restrictions on free hosting) </h6>
 
 ## Description:
 
