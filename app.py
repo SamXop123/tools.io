@@ -4,7 +4,6 @@ from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 from gtts import gTTS
 import qrcode
-from PIL import Image
 from io import BytesIO
 import requests
 import random
