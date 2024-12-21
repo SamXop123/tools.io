@@ -2,7 +2,7 @@
 #### `Video Demo:`  [To be updated soon]
 #### `Creator:` Sameer Prajapati
 #### `Github:` SamXop123
-#### `Link:` tools-io.vercel.app
+#### `Link:` <a href="https://tools-io.vercel.app" target="_blank"> tools.io </a>
 
 ## Description:
 
