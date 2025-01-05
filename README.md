@@ -3,7 +3,7 @@
 #### `Creator:` Sameer Prajapati
 #### `Github:` SamXop123
 #### `Link:` <a href="https://tools-io.vercel.app" target="_blank"> tools.io </a>
-<h6> (The Background remover and image compressor won't be working due to vercels memory restrictions on free hosting) </h6>
+<h6> (Website is best viewed at 90% browser magnification. The Background remover and image compressor won't be working due to vercels memory restrictions on free hosting) </h6>
 
 ## Description:
 
@@ -290,7 +290,6 @@ The website includes various smooth transitions for elements like buttons, logos
 #### Consistency and Responsiveness
 Throughout the design, there is a consistent use of purple tones, smooth shadows, and soft gradients that tie all elements together visually.
 
-<br>
 <br>
 
 # Javascript
