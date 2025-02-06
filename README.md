@@ -35,13 +35,14 @@ This project is built using:
 ```
 /tools.io
 ├── static/
-│   ├── css/         # Stylesheets
-│   ├── js/          # JavaScript files
-│   └── media/      # Images used in the app
-├── templates/       # HTML templates
-├── app.py           # Main Flask application
-├── requirements.txt # Python dependencies
-└── README.md        # Project documentation
+│   ├── css/          # Stylesheets
+│   ├── js/           # JavaScript files
+│   ├── media/        # Images used in the app
+│   └── fonts/        # Font files
+├── templates/        # HTML templates
+├── app.py            # Main Flask application
+├── requirements.txt  # Python dependencies
+└── README.md         # Project documentation
 ```
 
 ## Screenshots
