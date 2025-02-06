@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: 'atmaregular';
+    font-family: 'Atma';
     src: url('atma-regular-webfont.woff2') format('woff2'),
          url('atma-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'most_heroesregular';
+    font-family: 'Most Heroes';
     src: url('most_heroes-webfont.woff2') format('woff2'),
          url('most_heroes-webfont.woff') format('woff');
     font-weight: normal;
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-    font-family: 'sunday_milkregular';
+    font-family: 'Sunday Milk';
     src: url('sundaymilk-webfont.woff2') format('woff2'),
          url('sundaymilk-webfont.woff') format('woff');
     font-weight: normal;
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-    font-family: 'franklin_gothic_mediumregular';
+    font-family: 'Franklin Gothic Medium';
     src: url('framd-webfont.woff2') format('woff2'),
          url('framd-webfont.woff') format('woff');
     font-weight: normal;
@@ -263,7 +263,7 @@ nav .logo:hover {
 
 
 .tools_title {
-    font-family: Sunday milk, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Sunday Milk', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     padding-top: 50px;
     font-size: 60px;
