@@ -1,4 +1,37 @@
 
+@font-face {
+    font-family: 'atmaregular';
+    src: url('atma-regular-webfont.woff2') format('woff2'),
+         url('atma-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'most_heroesregular';
+    src: url('most_heroes-webfont.woff2') format('woff2'),
+         url('most_heroes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sunday_milkregular';
+    src: url('sundaymilk-webfont.woff2') format('woff2'),
+         url('sundaymilk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'franklin_gothic_mediumregular';
+    src: url('framd-webfont.woff2') format('woff2'),
+         url('framd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     background-image: url(/static/media/download.jpeg);
     background-size: cover;
@@ -300,7 +333,7 @@ nav .logo:hover {
     font-size: 25px;
     font-weight: bold;
     z-index: 1; /* Ensures text is above the blurred background */
-    font-family: Sunday Milk;
+    font-family: 'Sunday Milk';
     letter-spacing: 2px;
     color: #ffffff; 
 }
