@@ -1,64 +1,32 @@
 
 @font-face {
-    font-family: 'Atma';
-    src: url('atma-regular-webfont.woff2') format('woff2'),
-         url('atma-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Most Heroes';
-    src: url('most_heroes-webfont.woff2') format('woff2'),
-         url('most_heroes-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sunday Milk';
-    src: url('sundaymilk-webfont.woff2') format('woff2'),
-         url('sundaymilk-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Franklin Gothic Medium';
-    src: url('framd-webfont.woff2') format('woff2'),
-         url('framd-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'atmaregular';
-    src: url('atma-regular-webfont.woff2') format('woff2'),
-         url('atma-regular-webfont.woff') format('woff');
+    src: url('/static/fonts/atma-regular-webfont.woff2') format('woff2'),
+         url('/static/fonts/atma-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'most_heroesregular';
-    src: url('most_heroes-webfont.woff2') format('woff2'),
-         url('most_heroes-webfont.woff') format('woff');
+    src: url('/static/fonts/most_heroes-webfont.woff2') format('woff2'),
+         url('/static/fonts/most_heroes-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sunday_milkregular';
-    src: url('sundaymilk-webfont.woff2') format('woff2'),
-         url('sundaymilk-webfont.woff') format('woff');
+    src: url('/static/fonts/sundaymilk-webfont.woff2') format('woff2'),
+         url('/static/fonts/sundaymilk-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'franklin_gothic_mediumregular';
-    src: url('framd-webfont.woff2') format('woff2'),
-         url('framd-webfont.woff') format('woff');
+    src: url('/static/fonts/framd-webfont.woff2') format('woff2'),
+         url('/static/fonts/framd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -217,7 +185,7 @@ nav .logo:hover {
     max-width: 1200px;
     border: 2px solid red;
     box-shadow: 5px 5px 10px rgb(161, 79, 8);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'franklin_gothic_mediumregular', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
 }
 
