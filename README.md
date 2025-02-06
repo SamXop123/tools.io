@@ -1,5 +1,5 @@
 # Tools.io
-#### `Video Demo:`  [To be updated soon]
+<!-- #### `Video Demo:`  [To be updated soon] -->
 #### `Creator:` Sameer Prajapati
 #### `Github:` SamXop123
 #### `Link:` <a href="https://tools-io.vercel.app" target="_blank"> tools.io </a>
