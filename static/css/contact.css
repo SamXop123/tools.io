@@ -1,4 +1,12 @@
 
+@font-face {
+    font-family: 'Sunday Milk';
+    src: url('sundaymilk-webfont.woff2') format('woff2'),
+         url('sundaymilk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .contact_title {
     font-family: Sunday Milk, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
