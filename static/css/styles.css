@@ -33,14 +33,14 @@
 
 
 body {
-    background-image: url(/static/media/download.jpeg);
-    background-size: cover;
+    background-image: url('/static/media/download.jpeg');
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: #2a0e52; 
 }
 
 body.main-page {
-    background-image: url(/static/media/download.jpeg);
+    background-image: url('/static/media/download.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #2a0e52;
@@ -443,74 +443,105 @@ footer {
 
 
 /* Mobile Devices */
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
 
-    .web-title {
-        margin-left: 50px;
-        font-size: 40px;
+    body {
+        /* background: #3d2a63; */
+        background-image: none;
+        background-repeat: repeat;
+        background-color: #2a0e52; 
     }
 
-    .index {
-        font-size: 25px;
-    }
-    
-    .featured-section, .testimonials-section, .updates-section {
-        margin: 20px, 30px;
+    nav button {
+        padding: 5px 8px;
+        font-size: 9px
     }
 
-    .cta-buttons {
-        flex-direction: column;
+    nav .logo {
+        width: 40px;
+        height: 40px;
+        border: none;
+    }
+
+    .center-buttons {
+        gap: 10px;
+    }
+
+    .auth-buttons {
         gap: 10px;
     }
 
     .web-title {
-        font-size: 2rem;
+        margin-left: 50px;
+        font-size: 45px;
+        margin-top: 70px;
+        background: linear-gradient(90deg, rgb(150, 78, 252), rgb(234, 206, 255), rgb(144, 15, 249));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .index {
-        font-size: 1rem;
+        font-size: 15px;
+        margin-top: 30px;
+        background: linear-gradient(90deg, rgb(157, 121, 255), rgb(255, 255, 255), rgb(192, 97, 255)); /* Purple gradient */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .cta-buttons {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    center img {
+        width: 60px;
+    }
+
+    .featured-section, .updates-section {
+        margin: 20px, 30px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .about-section {
+        padding: 10px 20px;
+        width: 70vw;
+        margin: 30px auto;
     }
 
     .about-section p {
-        font-size: 1rem;
+        font-size: 10px;
     }
 
     .testimonials-section {
+        width: 70vw;
         padding: 20px;
+    }
+
+    .testimonial {
+        font-size: 12px;
+        height: 70px
+    }
+
+    .updates-section {
+        width: 70vw;
     }
 
     .update {
         margin-bottom: 15px;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-section {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-}
-
-/* Tablets */
-@media (max-width: 1024px) {
-    .cta-buttons {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .web-title {
-        font-size: 60px;
-    }
-
-    .index {
-        font-size: 35px;
-    }
-
-    .about-section p {
-        font-size: 1.1rem;
+        font-size: 7px;
+        padding: 15px;
+        height: 60px
     }
 
     .footer-container {
