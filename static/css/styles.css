@@ -440,3 +440,86 @@ footer {
     font-family: Atma, Arial Rounded MT, Berlin Sans FB, Boogie Boys;
     letter-spacing: 5px;
 }
+
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+
+    .web-title {
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    .index {
+        font-size: 25px;
+    }
+    
+    .featured-section, .testimonials-section, .updates-section {
+        margin: 20px, 30px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .web-title {
+        font-size: 2rem;
+    }
+
+    .index {
+        font-size: 1rem;
+    }
+
+    .about-section p {
+        font-size: 1rem;
+    }
+
+    .testimonials-section {
+        padding: 20px;
+    }
+
+    .update {
+        margin-bottom: 15px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .cta-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .web-title {
+        font-size: 60px;
+    }
+
+    .index {
+        font-size: 35px;
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
