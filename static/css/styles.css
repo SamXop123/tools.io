@@ -39,7 +39,7 @@ body {
     background-color: #2a0e52; 
 }
 
-body.main-page {
+body .main-page {
     background-image: url('/static/media/download.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body.tools-page {
 nav {
     display: flex; 
     align-items: center; 
-    justify-content: space-between; /* Space out the items across the navbar */
+    justify-content: space-between; 
     padding: 10px 20px; 
     background: linear-gradient(90deg, #5b2a8f, #7d2e99); 
     background-color: #3d2a63; 
@@ -70,7 +70,7 @@ nav {
 .center-buttons {
     display: flex; 
     justify-content: center; 
-    gap: 15px; /* Space between buttons */
+    gap: 15px; 
 }
 
 /* Auth buttons container (right side) */
@@ -95,7 +95,7 @@ nav button {
 
 nav button:hover {
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7); 
-    transform: scale(1.05); /* Slightly enlarge the button */
+    transform: scale(1.05); 
     background-color: rgba(255, 255, 255, 0.1); 
 }
 
@@ -105,12 +105,12 @@ nav .logo {
     width: 60px;
     border: 0;
     border-radius: 50%; 
-    transition: 0.3s ease-in-out; /* Smooth animation effect */
+    transition: 0.3s ease-in-out; 
 }
 
 nav .logo:hover {
-    box-shadow: 0 0 15px 5px rgba(140, 0, 255, 0.7); /* Glow effect */
-    transform: scale(1.1); /* Slightly enlarges the logo */
+    box-shadow: 0 0 15px 5px rgba(140, 0, 255, 0.7); 
+    transform: scale(1.1); 
 }
 
 
@@ -122,8 +122,8 @@ nav .logo:hover {
     background: rgba(42, 19, 108, 0.3); 
     padding: 10px 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slight shadow */
-    transition: background 0.3s ease-in-out; /* Smooth transition effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    transition: background 0.3s ease-in-out;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
     display: inline-block;
     font-family: 'most_heroesregular', 'Most Heroes', Atma, Arial Rounded MT, Berlin Sans FB, Boogie Boys;
@@ -148,7 +148,7 @@ nav .logo:hover {
     margin-left: 300px;
     margin-top: 205px;
     margin-right: auto;
-    background: linear-gradient(90deg, rgb(40,0,150), rgb(80,0,140), rgb(120,0,200)); /* Purple gradient */
+    background: linear-gradient(90deg, rgb(40,0,150), rgb(80,0,140), rgb(120,0,200)); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: -10px 10px 30px red; 
@@ -159,7 +159,7 @@ nav .logo:hover {
     font-family: 'most_heroesregular', 'Most Heroes', Atma, Arial Rounded MT, Berlin Sans FB, Boogie Boys;
     margin-left: 50px;
     margin-top: 150px;
-    background: linear-gradient(90deg, rgb(40,0,150), rgb(80,0,140), rgb(120,0,200)); /* Purple gradient */
+    background: linear-gradient(90deg, rgb(40,0,150), rgb(80,0,140), rgb(120,0,200)); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: -3px 7px 30px #000000; 
@@ -312,8 +312,8 @@ nav .logo:hover {
     background-image: url('/static/media/tools-io.webp'); 
     background-size: cover;
     background-position: center;
-    filter: blur(10px); /* Initial blur effect */
-    transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+    filter: blur(10px); 
+    transition: filter 0.3s ease; 
     z-index: -1; /* To place it behind the card content */
 }
 
@@ -369,7 +369,7 @@ nav .logo:hover {
 }
 
 .card img { 
-    transition: opacity 0.2s ease; /* Smooth fade-out effect over 0.5 seconds */
+    transition: opacity 0.2s ease; 
 }
 
 .card:hover img {
@@ -446,10 +446,13 @@ footer {
 @media (max-width: 1100px) {
 
     body {
-        /* background: #3d2a63; */
-        background-image: none;
+        background: #2a0e52;
         background-repeat: repeat;
-        background-color: #2a0e52; 
+    }
+
+    body .main-page {
+        background-image: none;
+        background-color: #2a0e52;
     }
 
     nav button {
@@ -464,24 +467,29 @@ footer {
     }
 
     .center-buttons {
-        gap: 10px;
+        gap: 4px;
     }
 
     .auth-buttons {
-        gap: 10px;
+        gap: 3px;
+    }
+
+    .auth-buttons button {
+        font-size: 8px;
+        padding: 4px;
     }
 
     .web-title {
-        margin-left: 50px;
-        font-size: 45px;
-        margin-top: 70px;
+        margin-left: 40px;
+        font-size: 40px;
+        margin-top: 52px;
         background: linear-gradient(90deg, rgb(150, 78, 252), rgb(234, 206, 255), rgb(144, 15, 249));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
     .index {
-        font-size: 15px;
+        font-size: 10px;
         margin-top: 30px;
         background: linear-gradient(90deg, rgb(157, 121, 255), rgb(255, 255, 255), rgb(192, 97, 255)); /* Purple gradient */
         -webkit-background-clip: text;
@@ -496,8 +504,8 @@ footer {
     }
 
     .cta-button {
-        padding: 10px 20px;
-        font-size: 12px;
+        padding: 8px 17px;
+        font-size: 10px;
     }
 
     center img {
@@ -526,6 +534,7 @@ footer {
     .testimonials-section {
         width: 70vw;
         padding: 20px;
+        margin-bottom: 35px;
     }
 
     .testimonial {
@@ -535,6 +544,7 @@ footer {
 
     .updates-section {
         width: 70vw;
+        margin-bottom: 50px;
     }
 
     .update {
@@ -544,6 +554,10 @@ footer {
         height: 60px
     }
 
+    footer {
+        width: 100%;
+    }
+
     .footer-container {
         flex-direction: column;
         align-items: center;
@@ -551,6 +565,7 @@ footer {
 
     .footer-section {
         text-align: center;
-        margin-bottom: 20px;
+        /* margin-bottom: 5px; */
+        gap: 5px;
     }
 }
