@@ -55,12 +55,34 @@ body.tools-page {
     background-color: #2a0e52; 
 }
 
-body.ip-find {
+body.ip-find,
+body.bg-remove,
+body.compress-img,
+body.guess-num,
+body.match,
+body.pass-gen,
+body.qr-gen,
+body.rand-number,
+body.t-t-s,
+body.word-count,
+body.snake-game,
+body.tictactoe,
+body.swg-page,
+body.contact-me,
+body.login-page,
+body.signup-page 
+{
     background-image: url('/static/media/download.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #2a0e52; 
 }
+
+body.snake-game 
+{
+    overflow: hidden;
+}
+
 nav {
     display: flex; 
     align-items: center; 
@@ -79,7 +101,7 @@ nav {
     gap: 15px; 
 }
 
-/* Auth buttons container (right side) */
+/* auth buttons container (right side) */
 .auth-buttons {
     display: flex; 
     gap: 15px; 
@@ -105,7 +127,6 @@ nav button:hover {
     background-color: rgba(255, 255, 255, 0.1); 
 }
 
-/* Logo styling */
 nav .logo {
     height: 60px;
     width: 60px;
