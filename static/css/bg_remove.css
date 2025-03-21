@@ -3,13 +3,21 @@
     font-family: Arial, sans-serif;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 60vh;
     margin: 0;
+    width: 100vw;
+    margin-top: 10px;
 }
 
-/* form container */
+.to-center {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 .formbg-container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
