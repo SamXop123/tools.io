@@ -51,10 +51,16 @@ body.games-page,
 body.tools-page {
     background-image: none; 
     background-size: cover;
+    background-repeat: no-repeat;
     background-color: #2a0e52; 
 }
 
-/* Navbar styling */
+body.ip-find {
+    background-image: url('/static/media/download.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2a0e52; 
+}
 nav {
     display: flex; 
     align-items: center; 
