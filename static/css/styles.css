@@ -175,19 +175,19 @@ nav .logo:hover {
     margin-top: 205px;
     margin-right: auto;
     background: linear-gradient(90deg, rgb(40,0,150), rgb(80,0,140), rgb(120,0,200)); 
-    --webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: -10px 10px 30px red; 
 }
 
-.index {
+.index {  
     font-size: 50px;
     font-weight: 700;
     font-family: 'most_heroesregular', 'Most Heroes', Atma, Arial Rounded MT, Berlin Sans FB, Boogie Boys;
     margin-left: 50px;
     margin-top: 150px;
     background: linear-gradient(90deg, rgb(40,0,150), rgb(80,0,140), rgb(120,0,200)); 
-    --webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: -3px 7px 30px #000000; 
     border-left: 5px solid #5c1f7b; 
@@ -299,17 +299,15 @@ nav .logo:hover {
     letter-spacing: 5px
 } 
 
-/* Card container */
 .cards-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 60vh; /* To take up most of the vertical space */
+    height: 60vh; 
     margin-bottom: 100px;
 }
 
-/* Card styling */
 .card {
     width: 200px;
     height: 150px;
@@ -352,14 +350,14 @@ nav .logo:hover {
 
 /* Card hover background - reduce blur */
 .card:hover::before {
-    filter: blur(2px); /* Decrease blur when hovering */
+    filter: blur(2px); 
 }
 
 /* Card title */
 .card h3 {
     font-size: 25px;
     font-weight: bold;
-    z-index: 1; /* Ensures text is above the blurred background */
+    z-index: 1; 
     font-family: 'sunday_milkregular', 'Sunday Milk';
     letter-spacing: 2px;
     color: #ffffff; 
@@ -384,7 +382,6 @@ nav .logo:hover {
     z-index: 1;
 }
 
-/* Hover effect for links */
 .card a:hover {
     background-color: rgba(102, 0, 102, 0.7); 
 }
@@ -511,7 +508,7 @@ footer {
         font-size: 40px;
         margin-top: 52px;
         background: linear-gradient(90deg, rgb(150, 78, 252), rgb(234, 206, 255), rgb(144, 15, 249));
-        --webkit-background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
@@ -519,7 +516,7 @@ footer {
         font-size: 10px;
         margin-top: 30px;
         background: linear-gradient(90deg, rgb(157, 121, 255), rgb(255, 255, 255), rgb(192, 97, 255)); /* Purple gradient */
-        --webkit-background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
@@ -596,3 +593,4 @@ footer {
         gap: 5px;
     }
 }
+
