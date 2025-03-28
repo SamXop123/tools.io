@@ -176,6 +176,29 @@ def word_counter():
     )
 
 
+@app.route('/itunes', methods=['GET'])
+def itunes_search():
+    artist = request.args.get('artist', '').strip()
+
+    if not artist:
+        return jsonify({"error": "No artist provided"}), 400
+
+    url = f"https://itunes.apple.com/search?entity=song&limit=50&term={artist}"
+    response = requests.get(url)
+
+    if response.status_code != 200:
+        return jsonify({"error": "Failed to fetch data from iTunes"}), 500
+
+    data = response.json()
+    songs = [song["trackName"] for song in data.get("results", [])]
+
+    return jsonify({"artist": artist, "songs": songs})
+
+@app.route('/itunes-tool')
+def itunes_tool():
+    return render_template("itunes_tool.html")
+
+
 @app.route('/games.html')
 def games():
     return render_template('games.html')
