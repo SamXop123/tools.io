@@ -70,7 +70,8 @@ body.tictactoe,
 body.swg-page,
 body.contact-me,
 body.login-page,
-body.signup-page 
+body.signup-page,
+body.itunes-artist-songs
 {
     background-image: url('/static/media/download.jpeg');
     background-size: cover;
