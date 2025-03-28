@@ -1,0 +1,26 @@
+
+{% extends "layout.html" %}
+
+{% block body_class %}
+itunes-artist-songs
+{% endblock %}
+
+{% block content %}
+
+    <div class="itunes-container">
+        <div class="itunes-artist">
+            <div class="songs-artist-box">
+                <h1>🎵 iTunes Song Search by Artist Name🎵</h1>
+                <p>Find the top 50 songs of any artist!</p>
+                
+                <input type="text" id="artistInput" placeholder="Enter artist name">
+                <button onclick="searchSongs()">Search</button>
+                
+                <ul class="artists-songList" id="songList"></ul>
+            </div>
+        </div>  
+    </div>
+    
+
+{% endblock %}
+    
