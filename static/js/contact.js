@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Handle form submission
+    // form submission
     const contactForm = document.getElementById("contactForm");
     if (contactForm) {
         contactForm.addEventListener("submit", function (e) {
-            e.preventDefault(); // Prevents default form submission behavior
+            e.preventDefault(); 
 
             // Create and display the popup message
             const popup = document.createElement("div");
