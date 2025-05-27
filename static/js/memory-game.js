@@ -4,7 +4,7 @@ let flippedCards = [];
 let matchedCards = [];
 let moves = 0;
 
-// Shuffle the cards
+// Shuffle cards
 const shuffle = () => {
     cards.forEach(card => {
         const randomIndex = Math.floor(Math.random() * cards.length);
@@ -14,7 +14,6 @@ const shuffle = () => {
 
 shuffle();
 
-// Add event listeners to each card
 cards.forEach(card => {
     card.addEventListener('click', function() {
         if (flippedCards.length < 2 && !card.classList.contains('flipped') && !matchedCards.includes(card)) {
