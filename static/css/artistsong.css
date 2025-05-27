@@ -2,12 +2,12 @@
     font-family: Arial, sans-serif;
     color: white;
     margin: 0;
-    height: calc(90vh - 60px); /* Adjust 60px to match your navbar height */
+    height: calc(90vh - 60px); 
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; /* Ensure it stays in normal flow */
-    top: 60px; /* Offset by navbar height, adjust as needed */
+    position: relative; 
+    top: 60px;
 }
 
 .itunes-artist {
